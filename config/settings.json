@@ -1,0 +1,51 @@
+{
+    "cartTitle": "CLOTH",
+    "cartDescription": "CaftanTest",
+    "cartLogo": "/uploads/logo.png",
+    "baseUrl": "http://localhost:1111",
+    "emailHost": "smtp-mail.outlook.com",
+    "emailPort": 587,
+    "emailSecure": false,
+    "emailUser": "hi@markmoffat.com",
+    "emailPassword": "this_is_the_smtp_password",
+    "emailAddress": "hi@markmoffat.com",
+    "menuEnabled": true,
+    "productsPerRow": 3,
+    "productsPerPage": 6,
+    "menuTitle": "Menu",
+    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by Ghandi Farid&lt;/h4&gt;",
+    "googleAnalytics": "",
+    "injectJs": "",
+    "customCss": "",
+    "currencySymbol": "€",
+    "paymentGateway": "stripe",
+    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "theme": "Cloth",
+    "trackStock": false,
+    "orderHook": "",
+    "availableLanguages": [
+        "en",
+        "it"
+    ],
+    "defaultLocale": "en",
+    "maxQuantity": 25,
+    "twitterHandle": "",
+    "facebookAppId": "",
+    "productOrderBy": "date",
+    "productOrder": "descending",
+    "modules": {
+        "enabled": {
+            "shipping": "shipping-basic",
+            "discount": "discount-voucher"
+        },
+        "loaded": {
+            "shipping": {},
+            "discount": {}
+        }
+    },
+    "showRelatedProducts": true,
+    "secretCookie": "d3e090afd7284ae94c666938ac0ada7ee7eb6794",
+    "secretSession": "1cb00835484a4fa78f763aaf5937c98119de84bd",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ""
+}
